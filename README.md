@@ -1,2 +1,2 @@
-# Rich2026spec
+Richy
 Programing

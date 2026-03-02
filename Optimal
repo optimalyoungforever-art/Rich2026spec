@@ -1,0 +1,88 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Richard | Personal Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal website of Richard">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Richard</h1>
+        <p>Welcome to Richard personal website</p>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            Hello! I'm Richard. This is my personal space on the web where I share
+            information about myself, my work, and my interests.
+        </p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Web Development</li>
+            <li>HTML & CSS</li>
+            <li>JavaScript</li>
+            <li>Problem Solving</li>
+        </ul>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+
+        <article>
+            <h3>Project One</h3>
+            <p>Short description of your project goes here.</p>
+        </article>
+
+        <article>
+            <h3>Project Two</h3>
+            <p>Short description of your project goes here.</p>
+        </article>
+
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>You can reach me at:</p>
+        <p>
+            <a href="mailto:optimalyoungforever@gmail.com">
+                optimalyoungforever@gmail.com
+            </a>
+        </p>
+
+        <form>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name"><br><br>
+
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message"></textarea><br><br>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Richard. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
